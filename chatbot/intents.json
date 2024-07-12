@@ -1,0 +1,86 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "How are you?", "Is anyone there?"],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there, do you need any help?",
+          "Good day! What brings you here?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "Take care!",
+          "Goodbye, stay healthy!",
+          "Farewell, may you be well."
+        ]
+      },
+      {
+        "tag": "pharmacy_location",
+        "patterns": ["Where's the pharmacy?", "I need to find the pharmacy"],
+        "responses": [
+          "The pharmacy is located on the ground floor, next to the radiology department.",
+          "You can find the pharmacy on the ground floor, just follow the signs.",
+          "The pharmacy? It's on the ground floor, adjacent to the radiology."
+        ]
+      },
+      {
+        "tag": "symptom_check",
+        "patterns": ["I have a headache", "My stomach hurts", "I'm feeling dizzy"],
+        "responses": [
+          "Those symptoms could be related to a variety of conditions. It's best to consult with a doctor for a proper diagnosis.",
+          "Headaches and dizziness can be concerning. Would you like to schedule an appointment with a doctor?",
+          "Stomach pain can be caused by many factors. If it persists, please see a doctor."
+        ]
+      },
+      {
+        "tag": "appointment_scheduling",
+        "patterns": ["I need to schedule an appointment", "Can I book a time to see the doctor?"],
+        "responses": [
+          "Certainly, I can help you with that. What day and time would you prefer?",
+          "Let's get you scheduled. Which day works best for you?",
+          "I'd be happy to assist with booking your appointment. Please provide me with a preferred date and time."
+        ]
+      },
+      {
+        "tag": "covid_inquiry",
+        "patterns": ["Do I have COVID if I can't smell anything?", "I've been coughing a lot, is it coronavirus?"],
+        "responses": [
+          "Loss of smell and persistent coughing can be symptoms of COVID-19. Please get tested at the nearest facility.",
+          "If you're experiencing loss of smell or excessive coughing, it's important to get tested for COVID-19 as soon as possible.",
+          "Those symptoms may indicate COVID-19. Testing is the best way to confirm, so please visit a testing center."
+        ]
+      },
+      {
+        "tag": "general_health_advice",
+        "patterns": ["How can I stay healthy?", "Give me some health tips"],
+        "responses": [
+          "Eating a balanced diet, exercising regularly, and getting enough sleep are key to maintaining good health.",
+          "For good health, make sure to maintain a balanced diet, stay active, and rest well.",
+          "A healthy lifestyle includes a nutritious diet, regular physical activity, and adequate sleep."
+        ]
+      },
+      {
+        "tag": "diagnosis",
+        "patterns": ["I think I have the flu", "I've been having chest pains", "I'm experiencing shortness of breath"],
+        "responses": [
+          "Flu-like symptoms can be a sign of many conditions. It's important to get a proper diagnosis from a doctor.",
+          "Chest pains should be taken seriously. Please visit the emergency department if this is an urgent issue.",
+          "Shortness of breath can be alarming. Please seek immediate medical attention in case of an emergency."
+        ]
+      },
+      {
+        "tag": "medication_inquiry",
+        "patterns": ["What should I take for a headache?", "Can you recommend something for allergies?", "What medicine is good for a cold?"],
+        "responses": [
+          "For headaches, over-the-counter pain relievers like ibuprofen or acetaminophen can help. However, it's best to consult with a doctor.",
+          "For allergies, antihistamines are commonly used, but it's important to find the right one for you with a doctor's advice.",
+          "For a cold, rest and hydration are key. Over-the-counter cold remedies can provide relief, but consult with a doctor for the best course of action."
+        ]
+      }
+    ]
+  }
+  
